@@ -1,0 +1,171 @@
+body{
+    font-family: "Open-sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+}
+img{
+width: 100%;
+}
+/* common classes*/
+.primary-text{
+  color: #619aa9;  
+}
+.primary-background{
+    background: #ffffff;
+}
+
+/* header*/
+
+
+/* nav bar*/
+#nav-bar li{
+    display: inline;  
+    padding-right: 20px;
+    list-style: none;
+}
+#nav-bar a{
+   text-decoration: none;
+   color: #619aa9;
+}
+
+#nav-bar li.current a, #nav-bar a:hover{
+    color: #00CCBB;
+    border-bottom: 3px solid #00CCBB;
+}
+
+/* show case*/
+#showcase{
+   
+  
+  background:url("../images/pexels-photo-132650.jpeg") no-repeat center center ;
+
+  border-bottom: 1px solid #619aa9;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+#showcase .row{
+    height: 600px;
+}
+
+#showcase h1{
+    font-size: 50px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+#showcase p{
+    color: #ffffff;
+    margin: 0;
+    font-size: 20px;
+}
+
+/* features */
+#feature{
+    margin-bottom: 50px;
+}
+#feature h2{
+    font-size: 35px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#feature p{
+    color: #00CCBB;
+    margin: 0;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+
+#feature i{
+    font-size: 120px;
+    
+}
+
+/* features section 2*/
+#feature-2{
+    margin-bottom: 50px;
+}
+#feature-2 h2{
+    font-size: 35px;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+#feature-2 i{
+    font-size: 120px;
+    
+}
+#feature-2 p{
+    color: #00CCBB;
+    margin: 0;
+    margin-bottom: 40px;
+    padding-top: 10px;
+}
+
+/* info*/
+#info{
+    padding-top: 10px;
+    background: #619aa9;
+    height: 400px;
+}
+#info h2{
+font-size: 35px;
+margin: 0;
+padding-bottom: 10px;
+} 
+#info img{
+    padding-left: 10px;
+}
+
+#info ul{
+   list-style: none;
+   padding: 0;
+    }
+
+    #info li{
+        line-height: 2em;
+    font-size: 18px;
+         }
+
+    /* info*/
+#company{
+    background: #2f2f2f;
+    padding: 10px 0;
+    color: #ffffff;
+}
+#company i{
+    font-size: 20px;
+    padding-right: 8px;
+}
+
+#company ul{
+    list-style: none;
+    padding: 0;
+    line-height: 2em;
+     }
+
+     #footer{
+        background: #000000;
+        color: #ffffff;  
+     }
+
+
+/* media queries*/
+@media(max-width:800px){
+    #showcase h1{
+        font-size: 30px;
+    }
+    }
+@media(max-width:500px){
+    #showcase .showcase-content{
+        padding: 40px 10px;
+    }
+}
+   
